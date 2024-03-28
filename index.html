@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coder Kids RT 01</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="shortcut icon" href="img/Logo.jpeg">
+</head>
+<body>
+
+
+  
+   
+  <nav class="navbar">
+    <div class="content">
+        <div class="judul"><span style="color: rgb(255, 0, 119);">C</span><span style="color: rgb(255, 187, 0);">o</span><span style="color:  rgb(0, 255, 34);">der</span> <span style="color: rgb(0, 183, 255);">K</span><span style="color: rgb(132, 0, 255);">i</span><span style="color: rgb(0, 89, 255);">d</span><span style="color: rgb(255, 0, 242);">s</span></div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="merah">
+        <li><a href="#" class="merah">Beranda</a></li>
+        </div>
+        <div class="kuning">
+        <li><a href="#about" class="kuning">About</a></li>
+        </div>
+        <div class="biru">
+        <li><a href="#kegiatan" class="biru">Kegiatan</a></li>
+        </div>
+        <div class="ungu">
+        <li><a href="#gallery" class="ungu">Gallery</a></li>
+        </div>
+
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+
+
+<div class="banner"></div>
+<section id="about">
+  <div class="tentang">
+    <audio controls>
+      <source src="Haddad Alwi & Vita - Rindu Muhammadku (Official Music Video).mp3" type="audio/mp3">
+    </audio>
+    <div class="image">
+    <img src="img/Logo coder kids.png" alt="">
+    </div>
+    <div class="title">Tentang 
+      <span style="color: rgb(255, 0, 119);">C</span><span style="color: rgb(255, 187, 0);">o</span><span style="color:  rgb(0, 255, 34);">der</span> <span style="color: rgb(0, 183, 255);">K</span><span style="color: rgb(132, 0, 255);">i</span><span style="color: rgb(0, 89, 255);">d</span><span style="color: rgb(255, 0, 242);">s</span> <span style="color:brown">RT 01</span></div>
+      <p>"Teman-teman Coder Kids RT 01, mari kita rayakan bulan Ramadan dengan semangat belajar coding yang menginspirasi! 💻🌙
+
+        Di bulan yang penuh berkah ini, mari kita jadikan setiap kode yang kita tulis sebagai doa-doa yang membawa kebaikan bagi kita dan dunia.
+        
+        Tujuan kita bukan hanya sekadar menguasai bahasa pemrograman, tetapi juga untuk menjadi pembelajar yang tangguh dan penuh semangat.
+        
+        Jaga semangat dalam belajar, meski saat sahur atau berbuka puasa. Jadikan setiap komentar kode sebagai pelajaran berharga tentang kehidupan.
+        
+        Bersama-sama, kita bisa meraih impian kita, satu baris kode demi satu baris kode. Mari kita tetap memancarkan sinar kemajuan melalui coding kita.
+        
+        Selamat belajar, Coder Kids RT 01! Ramadan Kareem! 🌟🚀"</p>
+  </div>
+</section>
+
+<section id="kegiatan">
+    <div class="kegiatan">
+      <div class="title">Kegiatan" yang dilakukan selama Bulan Suci Ramadhan</div>
+    </div>
+
+
+  <div class="filter-button">
+    <button onclick="filterKegiatan('All')">All</button>
+    <button onclick="filterKegiatan('Tadarus')">Tadarus</button>
+    <button onclick="filterKegiatan('Tahsin')">Tahsin</button>
+    <button onclick="filterKegiatan('Quran')">Tadabur Quran</button>
+    <button onclick="filterKegiatan('Qiroah')">Qiroah</button>
+    <button onclick="filterKegiatan('Tartil')">Tartil</button>
+    <button onclick="filterKegiatan('Tahfidz')">Tahfidz</button>
+    <button onclick="filterKegiatan('Coding')">Coding/Coder Kids</button>
+    <button onclick="filterKegiatan('Poster')">Poster</button>
+    <button onclick="filterKegiatan('Editor')">Editor</button>
+    <button onclick="filterKegiatan('Marawis')">Marawis</button>
+  </div>
+
+  <div class="container">
+    <div class="Tadarus kegiatan-item">
+        <img src="img/Tadarus 2, awal puasa.jpg" alt="Gambar Tadarus">
+        <h3>Tadarus Quran</h3>
+        <p>Kegiatan Tadarus selama bulan ramadhan, dilakukan habis sholat tarawih.</p>
+    </div>
+    <div class="Tahsin kegiatan-item">
+        <img src="img/Tahsin 1, awal puasa.jpg" alt="Gambar Tahsin">
+        <h3>Tahsin</h3>
+        <p>Kegiatan Tahsin selama bulan ramadhan, dilakukan setelah Tadarusan.</p>
+    </div>
+    <div class="Quran kegiatan-item">
+      <img src="gallery/Tadarus 3, awal puasa.jpg" alt="Gambar Quran">
+      <h3>Tadabur Quran</h3>
+      <p>Kegiatan Tadabur Quran dilakukan setelah Tahsin.</p>
+  </div>
+<div class="Qiroah kegiatan-item">
+  <img src="foto/FOTO 13.jpeg" alt="Gambar Qiroah">
+  <h3>Qiroah</h3>
+  <p>Kegiatan Qiroah dilakukan selama bulan ramadhan</p>
+</div>
+<div class="Tartil kegiatan-item">
+  <img src="foto/FOTO 11.jpeg" alt="Gambar Tartil">
+  <h3>Tartil</h3>
+  <p>Kegiatan Tartil dilakukan selama bulan ramadhan</p>
+</div>
+<div class="Tahfidz kegiatan-item">
+  <img src="foto/FOTO 5.jpeg" alt="Gambar Tahfidz">
+  <h3>Tahfidz</h3>
+  <p>Kegiatan Tahfidz dilakukan sehabis sholat tarawih.</p>
+</div>
+<div class="Coding kegiatan-item">
+  <img src="img/Coding.jpeg" alt="Gambar Coding">
+  <h3>Coding / Coder Kids</h3>
+  <p>Kegiatan Coding dilakukan setiap hari rabu, yang dipandu langsung Oleh <span style="color: aqua;">Mas Gustav</span>.</p>
+</div>
+<div class="Poster kegiatan-item">
+  <img src="img/Poster.jpeg" alt="Gambar poster">
+  <h3>Editing Poster</h3>
+  <p>Membuat sebuah Poster/Banner yang dipandu oleh Mas Fais dan Mas Bintang.</p>
+</div>
+<div class="Editor kegiatan-item">
+  <img src="img/Editor.png" alt="Gambar Editor">
+  <h3>Editing Video</h3>
+  <p>Mengedit sebuah video logo GStar, yang dibuat oleh Mas Fais, Untuk hasil nya bisa di lihat di <span style="color: yellow;">Gallery Video</span> </p>
+</div>
+<div class="Marawis kegiatan-item">
+  <img src="img/Marawis.jpeg" alt="Gambar Marawis">
+  <h3>Marawis</h3>
+  <p>Kegiatan Marawis</p>
+</div>
+<div class="Editor kegiatan-item">
+  <img src="img/Logo.jpeg" alt="Logo GStar">
+  <h3>Editing Logo</h3>
+  <p>Pembuatan Logo GStar, yang dibuat oleh Mas Zidan</p>
+</div>
+</section>
+
+
+
+<section id="gallery">
+
+    <div class="text-gallery">
+      <h1>Gallery Foto</h1>
+    </div>
+
+        <div class="gallery">
+          <a>
+            <img src="gallery/Tadarus 1, awal puasa.jpg" alt="Gallery Tadarus 11 maret">
+          </a>
+      
+          <a>
+            <img src="gallery/Tadarus 2, awal puasa.jpg" alt="Gallery Tadarus 11 maret">
+          </a>
+      
+          <a>
+            <img src="gallery/Tahsin 1, awal puasa.jpg" alt="Gallery Tahsin 11  maret">
+          </a>
+      
+          <a>
+            <img src="gallery/Tahsin 2, awal puasa.jpg" alt="Gallery Tahsin 11 maret">
+          </a>
+
+          <a>
+            <img src="gallery/Tahsin 3,awal puasa.jpg " alt="Gallery Tahsin 11 maret">
+          </a>
+
+          <a>
+            <img src="gallery/Tadarus 3, 12 maret.jpg" alt="Gallery Tahsin 12 maret">
+          </a>
+
+          <a>
+            <img src="gallery/Tadarus 4, 12 maret.jpg" alt="Gallery Tahsin 12 maret">
+          </a>
+
+          <a>
+            <img src="gallery/Tashin 1, 12 maret.jpg" alt="Gallery Tahsin 12 maret">
+          </a>
+
+          <a>
+            <img src="gallery/Tadarus 12 maret.jpg" alt="Gallery Tahsin 11 maret">
+          </a>
+
+          <a>
+            <img src="gallery/Tadarus 2, 12 maret.jpg " alt="Gallery Tahsin 11 maret">
+          </a>
+          
+            <!-- FOTO BARU -->
+
+          <a>
+            <img src="foto/FOTO 1.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 2.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 3.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 4.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 5.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 6.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 7.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 8.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 9.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 10.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 11.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 12.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 13.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 14.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 15.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 16.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 17.jpeg" alt="">
+          </a>
+          <a>
+            <img src="img/coder kids bg.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 18.jpeg" alt="">
+          </a>
+          <a>
+            <img src="foto/FOTO 19.jpeg" alt="">
+          </a>
+      </div>
+      
+
+
+      <div class="container-video">
+        <h1>Gallery Video</h1>
+
+        <div class="video-container">
+          <div class="video"><video src="gallery/Tadarus 12 maret.mp4" muted></video></div>
+          <div class="video"><video src="gallery/Video tadarus sore.mp4" muted></video></div>
+          <div class="video"><video src="video/video 1.mp4" muted></video></div>
+          <div class="video"><video src="video/video 2.mp4" muted></video></div>
+          <div class="video"><video src="video/video 3.mp4" muted></video></div>
+          <div class="video"><video src="video/video 4.mp4" muted></video></div>
+          <div class="video"><video src="video/video 5.mp4" muted></video></div>
+          <div class="video"><video src="video/video 6.mp4" muted></video></div>
+          <div class="video"><video src="video/video 7.mp4" muted></video></div>
+          <div class="video"><video src="video/video 8.mp4" muted></video></div>
+          <div class="video"><video src="video/video 9.mp4" muted></video></div>
+          <div class="video"><video src="video/video 10.mp4" muted></video></div>
+          <div class="video"><video src="video/video 11.mp4" muted></video></div>
+          <div class="video"><video src="video/video 12.mp4" muted></video></div>
+          <div class="video"><video src="video/video 13.mp4" muted></video></div>
+          <div class="video"><video src="video/video 14.mp4" muted></video></div>
+          <div class="video"><video src="video/video 15.mp4" muted></video></div>
+          <div class="video"><video src="video/video 16.mp4" muted></video></div>
+          <div class="video"><video src="video/video 17.mp4" muted></video></div>
+          <div class="video"><video src="video/video 18.mp4" muted></video></div>
+          <div class="video"><video src="video/video 19.mp4" muted></video></div>
+          
+        </div>
+
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="gallery/Tadarus 12 maret.mp4" muted autoplay controls></video>
+        </div>
+
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="gallery/Video tadarus sore.mp4" muted autoplay controls></video>
+        </div>
+
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 1.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 2.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 3.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 4.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 5.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 6.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 7.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 8.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 9.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 10.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 11.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 12.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 13.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 14.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 15.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 16.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 17.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 18.mp4" muted autoplay controls></video>
+        </div>
+        <div class="popup-video">
+          <span>&times;</span>
+          <video src="video/video 19.mp4" muted autoplay controls></video>
+        </div>
+
+
+      </div>
+
+</section>
+
+
+
+
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h1><span style="color: rgb(255, 0, 119);">C</span><span style="color: rgb(255, 187, 0);">o</span><span style="color: rgb(0, 255, 34);">der</span> <span style="color: rgb(0, 183, 255);">K</span><span style="color: rgb(132, 0, 255);">i</span><span style="color: rgb(0, 89, 255);">d</span><span style="color: rgb(255, 0, 242);">s</span> <span style="color:brown">RT 01</span></h1>
+      <p>Coder Kids RT 01 adalah sebuah inisiatif kegiatan yg di lakukan di bulan ramadhan yang bertujuan untuk memperkenalkan dan mengembangkan keterampilan pemrograman komputer kepada anak-anak di lingkungan RT 01.</p>
+      <p><span style="color: aqua;">Website ini dibuat oleh Gustav Ibrahim.</span></p>
+    </div>
+    <div class="footer-section">
+      <h3>Halaman link</h3>
+      <a href="#"> Beranda</a>
+      <a href="#about">Tentang</a>
+      <a href="#kegiatan">Kegiatan</a>
+      <a href="#gallery">Gallery</a>
+    </div>
+    <div class="footer-section">
+      <h3>Kegiatan 1</h3>
+      <a>Tadarus</a>
+      <a>Tahsin</a>
+      <a>Tadabur Quran</a>
+      <a>Qiroah</a>
+    </div>
+    <div class="footer-section">
+      <h3>Kegiatan 2</h3>
+      <a>Tartil</a>
+      <a>Tahfidz</a>
+      <a>Coding</a>
+      <a>Poster</a>
+      <a>Editor</a>
+      <a>Marawis</a>
+    </div>
+
+    <div class="footer-section">
+      <h3>Teknologi</h3>
+      <a>Html 5</a>
+      <a>CSS</a>
+      <a>JavaScript</a>
+  </div>
+</div>
+
+<div class="hakcipta">
+  <h1> &copy; 2024  <span style="color: rgb(255, 0, 119);">C</span><span style="color: rgb(255, 187, 0);">o</span><span style="color: rgb(0, 255, 34);">der</span> <span style="color: rgb(0, 183, 255);">K</span><span style="color: rgb(132, 0, 255);">i</span><span style="color: rgb(0, 89, 255);">d</span><span style="color: rgb(255, 0, 242);">s</span> <span style="color:brown">RT 01</span>   | All rights reserved.</h1></p>
+</div>
+
+<div class="reserved">
+  <p>TERMS & CONDITION | PRIVACY & POLICY</p>
+</div>
+
+</footer>
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
